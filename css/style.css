@@ -1027,7 +1027,7 @@ ul.timeline li .data .text {
 	padding: 25px 25px 35px 25px;
 	min-height: 130px;
 	position: relative;
-
+  
 	-webkit-box-shadow: 0px 3px 3px -3px #ccc;
 	box-shadow: 0px 3px 3px -3px #ccc;
 	cursor: pointer;
@@ -1045,7 +1045,7 @@ ul.timeline li .data .text {
 }
 
 .pitems .pubmain .label {
-	margin-right: 10px;
+	margin-right: 30px;
 }
 
 .pitems .pubmain .pubassets {
