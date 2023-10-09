@@ -274,6 +274,8 @@ ul#navigation li .text {
 	box-shadow: -3px 0 5px -4px #000;
 }
 
+
+
 ul#navigation li .fa {
 	float: left;
 	line-height: 45px;
@@ -447,7 +449,7 @@ ul#navigation li .fa {
 	-webkit-box-shadow: 0px 3px 3px -3px #ccc;
 	box-shadow: 0px 3px 3px -3px #ccc;
 	border-radius: 2px;
-	border-left: 5px solid;
+	border-left: 10px solid;
 }
 
 /* ul-card
@@ -462,18 +464,19 @@ ul.ul-card li {
 	position: relative;
 	padding: 50px 15px 20px 15px;
 	background-color: #fff;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	-webkit-box-shadow: 0px 3px 3px -3px #ccc;
 	box-shadow: 0px 3px 3px -3px #ccc;
 	border-radius: 3px;
-	margin-left: 10px;
+	margin-left: 120px;
+	margin-right: 80px;
 	color: #333;
 }
 
 ul.ul-card li .dy {
 	position: absolute;
 	top: 10px;
-	left: -10px;
+	left: -1px;
 	border-radius: 0px;
 	padding: 0;
 	color: white;
@@ -481,7 +484,9 @@ ul.ul-card li .dy {
 
 ul.ul-card li .dy span {
 	padding: 7px 10px;
-	line-height: 30px;
+	line-height: 20px;
+	line-weight: 30px;
+/*	right: 50px;*/
 	margin: 0;
 }
 
@@ -515,8 +520,11 @@ ul.ul-dates,ul.ul-dates-gray {
 }
 
 ul.ul-dates li,ul.ul-dates-gray li {
-	margin-bottom: 15px; /*margin-left:  20px;
-	*/
+	margin-bottom: 15px;
+	margin-left:  100px; 
+	margin-right:  130px;
+
+	
 }
 
 ul.ul-dates div.dates,ul.ul-dates-gray div.dates {
