@@ -1396,10 +1396,15 @@ ul.grid li a,ul.grid li img {
 
 @media (max-width: 991px) {
 	.mobilemenu {
-	display: block;
+		display: block;
+		}
+	
+	.social-icons {
+		left: 0px;
+		z-index: 0;
 	}
 
-	.social-icons,#main-nav {
+	#main-nav {
 		left: 0px;
 		z-index: 0;
 	}
@@ -1407,7 +1412,7 @@ ul.grid li a,ul.grid li img {
 	#main {
 		left: 0;
 	}
-			#smallprofile {
+	#smallprofile {
 		text-align: center;
 		/* padding: 30px 10px; */
 		position: relative;
@@ -1415,7 +1420,7 @@ ul.grid li a,ul.grid li img {
 	 
 	#smallprofile .smallportrate{
 		right: 0;
-		background-image: url("../img/personal/personal-image.jpeg");
+		background-image: url("../img/personal/personal-image.png");
 		width: 200px;
 		margin: 0 auto;
 		height: 200px;
@@ -1426,6 +1431,8 @@ ul.grid li a,ul.grid li img {
 		-moz-background-size: cover;
 		background-size: cover;
 	}
+
+	
 
 }
 
