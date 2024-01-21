@@ -1397,8 +1397,29 @@ ul.grid li a,ul.grid li img {
 	.headercontent .title{
 		font-size: 30px;
 	}
+		#smallprofile {
+		text-align: center;
+		/* padding: 30px 10px; */
+		position: relative;
+	}
+	 
+	#smallprofile .smallportrate{
+		right: 0;
+		background-image: url("../img/personal/personal-image.jpeg");
+		width: 200px;
+		margin: 0 auto;
+		height: 200px;
+		border-radius: 50%;
+		background-position-x: right;
+	
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+	}
 	
 }
+
+
 
 .custom-h6 {
     font-size: 14px; /* Font size for text inside the custom-h6 class */
