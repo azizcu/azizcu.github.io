@@ -1379,25 +1379,7 @@ ul.grid li a,ul.grid li img {
 	#main {
 		left: 0;
 	}
-
-}
-
-
-/* fix for mobile view of pages */
-@media screen and (max-width: 770px) {
-	 
-	 #blog-content{
-	 	width:100% !important;
-	 }
-	 .page{
-	 	width:100% !important;
-	 	left:0 !important;
-	}
-
-	.headercontent .title{
-		font-size: 30px;
-	}
-		#smallprofile {
+			#smallprofile {
 		text-align: center;
 		/* padding: 30px 10px; */
 		position: relative;
@@ -1416,6 +1398,25 @@ ul.grid li a,ul.grid li img {
 		-moz-background-size: cover;
 		background-size: cover;
 	}
+
+}
+
+
+/* fix for mobile view of pages */
+@media screen and (max-width: 770px) {
+	 
+	 #blog-content{
+	 	width:100% !important;
+	 }
+	 .page{
+	 	width:100% !important;
+	 	left:0 !important;
+	}
+
+	.headercontent .title{
+		font-size: 30px;
+	}
+
 	
 }
 
